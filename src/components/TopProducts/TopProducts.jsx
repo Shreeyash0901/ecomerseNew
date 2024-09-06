@@ -57,7 +57,7 @@ const TopProducts = () => {
             {ProductsData.map((data)=>(
                 <div 
                 data-aos="zoom-in"
-                className='rounded-2xl bg-white dark:bg-gray-800 hover:bg-black/80 dark:hover:bg-primary hover:text-white relative shadow-xl duration-300 group max-w-[300px]'
+                className='rounded-2xl bg-white dark:bg-gray-800 hover:bg-black/80 dark:hover:bg-blue-950 hover:text-white relative shadow-xl duration-300 group max-w-[300px]'
                 >
                     {/* Image section  */}
                     <div className='h-[100px]'>
@@ -80,8 +80,9 @@ const TopProducts = () => {
                         >{data.description}
                         </p>
                         <button
-                        className='bg-primary hover:scale-105 duration-300 text-white py-1 px-4 rounded-full mt-4 group-hover:bg-white group-hover:text-primary'
+                        className='bg-primary hover:scale-105 duration-300 text-white py-1 px-4 rounded-full mt-4 group-hover:bg-white group-hover:text-blue-950'
                         //Onclick={handleOrderPopup}
+                        onClick={()=>alert("Order Not avileble")}
                         >Order Now</button>
                     </div>
                 </div>

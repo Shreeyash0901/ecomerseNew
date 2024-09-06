@@ -7,6 +7,7 @@ import Product from './components/Products/Product';
 import AOS from 'aos';
 import "aos/dist/aos.css";
 import TopProducts from './components/TopProducts/TopProducts';
+import Footer from './components/Footer/Footer';
 
 function App() {
   React.useEffect(() => {
@@ -25,6 +26,7 @@ function App() {
       <Hero />
       <Product />
       <TopProducts/>
+      <Footer/>
     </div>
   );
 }
