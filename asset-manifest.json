@@ -1,26 +1,30 @@
 {
   "files": {
-    "main.css": "/ecomerseNew/static/css/main.7e03732e.css",
-    "main.js": "/ecomerseNew/static/js/main.439430f7.js",
+    "main.css": "/ecomerseNew/static/css/main.9387057d.css",
+    "main.js": "/ecomerseNew/static/js/main.b34821f2.js",
     "static/js/453.5de855a8.chunk.js": "/ecomerseNew/static/js/453.5de855a8.chunk.js",
     "static/media/ai-generated-8772215_1280.png": "/ecomerseNew/static/media/ai-generated-8772215_1280.885dba2f647932980068.png",
     "static/media/women (1).png": "/ecomerseNew/static/media/women (1).f171f124df4d16b65029.png",
+    "static/media/women.png": "/ecomerseNew/static/media/women.f171f124df4d16b65029.png",
     "static/media/sale.png": "/ecomerseNew/static/media/sale.520f3174bffb33116128.png",
     "static/media/shopping.png": "/ecomerseNew/static/media/shopping.5df962e820edb4d3a124.png",
     "static/media/dark-mode-button.png": "/ecomerseNew/static/media/dark-mode-button.c5b620c1550b3c201b56.png",
     "static/media/light-mode-button.png": "/ecomerseNew/static/media/light-mode-button.9ed4504ff522dfde699a.png",
+    "static/media/women3.jpg": "/ecomerseNew/static/media/women3.d4ee3d6adcf98524fedb.jpg",
+    "static/media/women4.jpg": "/ecomerseNew/static/media/women4.de4d6fb7a9937264471c.jpg",
+    "static/media/women2.jpg": "/ecomerseNew/static/media/women2.b095b5ece1ec61c6769b.jpg",
     "static/media/logo.svg": "/ecomerseNew/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "static/media/slick.svg": "/ecomerseNew/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/ecomerseNew/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/ecomerseNew/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/ecomerseNew/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/ecomerseNew/index.html",
-    "main.7e03732e.css.map": "/ecomerseNew/static/css/main.7e03732e.css.map",
-    "main.439430f7.js.map": "/ecomerseNew/static/js/main.439430f7.js.map",
+    "main.9387057d.css.map": "/ecomerseNew/static/css/main.9387057d.css.map",
+    "main.b34821f2.js.map": "/ecomerseNew/static/js/main.b34821f2.js.map",
     "453.5de855a8.chunk.js.map": "/ecomerseNew/static/js/453.5de855a8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7e03732e.css",
-    "static/js/main.439430f7.js"
+    "static/css/main.9387057d.css",
+    "static/js/main.b34821f2.js"
   ]
 }
