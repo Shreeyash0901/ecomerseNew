@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ecomerseNew/static/css/main.59421bf4.css",
-    "main.js": "/ecomerseNew/static/js/main.001b1e31.js",
+    "main.css": "/ecomerseNew/static/css/main.fa67b359.css",
+    "main.js": "/ecomerseNew/static/js/main.3c014d93.js",
     "static/js/453.5de855a8.chunk.js": "/ecomerseNew/static/js/453.5de855a8.chunk.js",
     "static/media/ai-generated-8772215_1280.png": "/ecomerseNew/static/media/ai-generated-8772215_1280.885dba2f647932980068.png",
     "static/media/shirt.png": "/ecomerseNew/static/media/shirt.2158cfde59d98537adbe.png",
@@ -22,12 +22,12 @@
     "static/media/slick.ttf": "/ecomerseNew/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/ecomerseNew/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/ecomerseNew/index.html",
-    "main.59421bf4.css.map": "/ecomerseNew/static/css/main.59421bf4.css.map",
-    "main.001b1e31.js.map": "/ecomerseNew/static/js/main.001b1e31.js.map",
+    "main.fa67b359.css.map": "/ecomerseNew/static/css/main.fa67b359.css.map",
+    "main.3c014d93.js.map": "/ecomerseNew/static/js/main.3c014d93.js.map",
     "453.5de855a8.chunk.js.map": "/ecomerseNew/static/js/453.5de855a8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.59421bf4.css",
-    "static/js/main.001b1e31.js"
+    "static/css/main.fa67b359.css",
+    "static/js/main.3c014d93.js"
   ]
 }
