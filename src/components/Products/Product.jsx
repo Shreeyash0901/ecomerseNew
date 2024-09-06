@@ -51,44 +51,63 @@ const ProductData = [
 const Product = () => {
   return (
    
-        <div className='mt-14 mb-12'>
-            <div className='container'>
-                {/* Header section  */}
-                <div className='text-center mb-10 max -w-[600px] mx-auto'>
-                    <p data-aos="fade-up" className='text-sm text-primary'>Top selling products for you</p>
-                    <h1 data-aos="fade-up" className='text-3xl font-bold'>Products</h1>
-                    <p data-aos="fade-up" className='text-xs text-gray-400'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, excepturi?</p>
-                </div>
-                {/* body section  */}
-                <div>
-                    <div className='grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 place-items-center gap-5'>
-                    {/* card section  */}
-                    {
-                        ProductData.map((data)=>(
-                            <div 
+    <div className='mt-14 mb-12'>
+    <div className='container'>
+        {/* Header section  */}
+        <div className='text-center mb-10 max-w-[600px] mx-auto'>
+            <p 
+                data-aos="fade-up" 
+                className='text-sm text-primary dark:text-secondary'
+            >
+                Top selling products for you
+            </p>
+            <h1 
+                data-aos="fade-up" 
+                className='text-3xl font-bold dark:text-white'
+            >
+                Products
+            </h1>
+            <p 
+                data-aos="fade-up" 
+                className='text-xs text-gray-400 dark:text-gray-300'
+            >
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, excepturi?
+            </p>
+        </div>
+        
+        {/* Body section */}
+        <div>
+            <div className='grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 place-items-center gap-5'>
+                {/* Card section */}
+                {
+                    ProductData.map((data) => (
+                        <div 
                             data-aos="fade-up"
                             data-aos-delay={data.aosDelay}
-                            key={data.id} className='space-y-3'>
-                                <img src={data.img} alt=""
-                                className='h-[200px] w-[150px]
-                                object-cover rounded-md'
-                                />
-                                <div>
-                                    <h3 className='font-semibold'>{data.title}</h3>
-                                    <p className='text-sm text-gray-600'>{data.color}</p>
-                                    <div className='flex items-center gap-1'>
-                                        <FaStar className='text-yellow-400'/>
-                                        <span>{data.rating}</span>
-                                    </div>
+                            key={data.id} 
+                            className='space-y-3 bg-white dark:bg-gray-800 p-4 rounded-lg shadow-md'
+                        >
+                            <img 
+                                src={data.img} 
+                                alt=""
+                                className='h-[200px] w-[150px] object-cover rounded-md'
+                            />
+                            <div>
+                                <h3 className='font-semibold dark:text-white'>{data.title}</h3>
+                                <p className='text-sm text-gray-600 dark:text-gray-400'>{data.color}</p>
+                                <div className='flex items-center gap-1'>
+                                    <FaStar className='text-yellow-400'/>
+                                    <span className='dark:text-white'>{data.rating}</span>
                                 </div>
                             </div>
-                        ))
-                    }
-                    </div>
-                </div>
+                        </div>
+                    ))
+                }
             </div>
         </div>
-    
+    </div>
+</div>
+
   )
 }
 
